@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Audio Tab Jumper - 5",
+    "version": "1.0",
+    "description": "Shows an audio symbol on tabs with sound and allows jumping to them.",
+    "permissions": [
+        "tabs",
+        "storage" ,
+        "windows" 
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "audio_2.png"
+        }}
+   
+  }
